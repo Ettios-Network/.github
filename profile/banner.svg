@@ -1,0 +1,86 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ettios Blockchain">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B1F"/>
+      <stop offset="0.55" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#0A1A3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
+      <stop stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#glow)"/>
+
+  <!-- faint grid -->
+  <g stroke="#1E3A5F" stroke-width="1" opacity="0.35">
+    <path d="M0 90 H1280 M0 180 H1280 M0 270 H1280"/>
+    <path d="M160 0 V360 M320 0 V360 M480 0 V360 M640 0 V360 M800 0 V360 M960 0 V360 M1120 0 V360"/>
+  </g>
+
+  <!-- network node motif (right) -->
+  <g opacity="0.9">
+    <g stroke="url(#accent)" stroke-width="1.6" opacity="0.6">
+      <line x1="980" y1="110" x2="1090" y2="80"/>
+      <line x1="1090" y1="80" x2="1180" y2="150"/>
+      <line x1="1180" y1="150" x2="1095" y2="245"/>
+      <line x1="1095" y1="245" x2="980" y2="110"/>
+      <line x1="1090" y1="80" x2="1095" y2="245"/>
+      <line x1="980" y1="110" x2="1180" y2="150"/>
+      <line x1="1010" y1="300" x2="1095" y2="245"/>
+      <line x1="1010" y1="300" x2="980" y2="110"/>
+    </g>
+    <g fill="url(#accent)">
+      <circle cx="980" cy="110" r="9" filter="url(#soft)"/>
+      <circle cx="980" cy="110" r="6"/>
+      <circle cx="1090" cy="80" r="9" filter="url(#soft)"/>
+      <circle cx="1090" cy="80" r="6"/>
+      <circle cx="1180" cy="150" r="10" filter="url(#soft)"/>
+      <circle cx="1180" cy="150" r="6.5"/>
+      <circle cx="1095" cy="245" r="9" filter="url(#soft)"/>
+      <circle cx="1095" cy="245" r="6"/>
+      <circle cx="1010" cy="300" r="7" filter="url(#soft)"/>
+      <circle cx="1010" cy="300" r="4.5"/>
+    </g>
+  </g>
+
+  <!-- hexagon logo mark -->
+  <g transform="translate(86 150)">
+    <path d="M0 -46 L40 -23 L40 23 L0 46 L-40 23 L-40 -23 Z" fill="none" stroke="url(#accent)" stroke-width="3.5"/>
+    <path d="M0 -24 L21 -12 L21 12 L0 24 L-21 12 L-21 -12 Z" fill="url(#accent)" opacity="0.18"/>
+    <text x="0" y="11" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">E</text>
+  </g>
+
+  <!-- wordmark -->
+  <text x="166" y="150" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="76" font-weight="800" fill="#FFFFFF" letter-spacing="1">ETTIOS</text>
+  <text x="170" y="196" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#22D3EE" letter-spacing="6">B L O C K C H A I N</text>
+
+  <!-- tagline -->
+  <text x="170" y="246" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="400" fill="#9FB3CF">The Layer-1 for alternative investments, NFTs &amp; on-chain finance.</text>
+
+  <!-- spec chips -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600">
+    <g transform="translate(170 280)">
+      <rect width="168" height="34" rx="17" fill="#0E2747" stroke="#22D3EE" stroke-opacity="0.4"/>
+      <text x="84" y="22" fill="#CFE8F4" text-anchor="middle">EVM-Compatible</text>
+    </g>
+    <g transform="translate(350 280)">
+      <rect width="150" height="34" rx="17" fill="#0E2747" stroke="#22D3EE" stroke-opacity="0.4"/>
+      <text x="75" y="22" fill="#CFE8F4" text-anchor="middle">Chain ID 20240</text>
+    </g>
+    <g transform="translate(512 280)">
+      <rect width="120" height="34" rx="17" fill="#0E2747" stroke="#22D3EE" stroke-opacity="0.4"/>
+      <text x="60" y="22" fill="#CFE8F4" text-anchor="middle">Token: ETT</text>
+    </g>
+  </g>
+</svg>
